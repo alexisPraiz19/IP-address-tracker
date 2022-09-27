@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>IP address tracker</title>
+</head>
+<body>
+    <header>
+        <h1>IP Address tracker</h1>
+        <form action="#" class="form">
+            <input type="text" placeholder="Search your any IP address or domain" id="ip-address">
+            <button><img src="images/icon-arrow.svg" alt="icon-arrow_right"></button>
+            <p class="err-message">Input correct IPv4 or IPv6 address.</p>
+        </form>
+    </header>
+
+    <main>
+        <section class="details-container">
+            <div class="details">
+                 <h4>ip address</h4>
+                 <span class="ip">192.212.174.101</span>
+            </div>
+
+            <div class="details">
+                <h4>location</h4>
+                <span class="location">South San Gabriel</span>
+            </div>
+
+            <div class="details">
+                <h4>timezone</h4>
+                <span class="timezone">UTC -07:00</span>
+            </div>
+
+            <div class="details">
+                <h4>isp</h4>
+                <span class="isp">Southern California Edison</span>
+            </div>
+        </section>
+
+        <div>
+            <iframe id="frame" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d26307.666291882404!2d-118.09462!3d34.04915!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2sar!4v1664226243290!5m2!1ses-419!2sar" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </main>
+
+    <!---->
+<script src="script.js"></script>
+</body>
+</html>
